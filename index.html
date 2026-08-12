@@ -7,6 +7,11 @@
     <title>Ali Jananti</title>
 </head>
 <body>
+    <!-- لودینگ -->
+    <div id="loading">
+        <div class="loader"></div>
+        <p>در حال بارگذاری...</p>
+    </div>
     <div class="kol">
         <div class="head">
             <h1 class="name">علی جنتی</h1>
@@ -26,5 +31,13 @@
             
         </div>
     </div>
+    <script>
+        // صفحه که کامل لود شد، لودینگ رو مخفی کن
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loading').classList.add('hide');
+            }, 1500); // ۱.۵ ثانیه نمایش داده بشه
+        });
+    </script>
 </body>
 </html>
