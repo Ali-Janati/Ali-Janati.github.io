@@ -15,7 +15,12 @@ body {
 }
 
 .kol {
-    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.85);
+    max-width: 95%;
+    border-radius: 10px;
 }
 
 .head {
@@ -23,8 +28,8 @@ body {
     grid-template-columns: 1fr auto;  /* دو ستون: یکی برای اسم، یکی برای شغل‌ها */
     align-items: center;              /* هر دو در وسط (عمودی) قرار می‌گیرند */
     background: linear-gradient(to left, rgb(255, 255, 255), rgb(26, 26, 26));
-    border-radius: 10px;
-    margin: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     padding: 20px;
 }
 
@@ -98,4 +103,29 @@ body {
 }
 .kolmh {
     border: 3px solid black;
+}
+/*         .mh {
+            text-align: right;
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: all 0.5s ease;
+            font-size: 32px;
+        }
+        .mh:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+        } */
+.mhbtn {
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: all 0.5s ease;
+            font-size: 32px;
+            font-family: vazir;
+            width: 95%;
+            margin: auto;
+            margin: 20px;
+}
+.mhbtn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
 }
