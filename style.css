@@ -146,15 +146,15 @@ img {
 }
 
 .brand-mark {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 14px;
-    color: #fff;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    box-shadow: 0 0 24px var(--accent-glow);
+    display: block;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 24px rgba(59, 130, 246, 0.18);
+    padding: 4px;
 }
 
 .brand-text {
@@ -227,14 +227,13 @@ img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 34px;
-    color: #fff;
+    display: block;
+    object-fit: cover;
     background: linear-gradient(145deg, var(--accent), var(--accent-2));
     border: 4px solid rgba(255, 255, 255, 0.12);
     box-shadow: 0 0 40px var(--accent-glow);
     flex-shrink: 0;
+    padding: 8px;
 }
 
 .hero-content h1 {
