@@ -1,0 +1,9 @@
+name = Ali Janati
+email = ali.janati.official@gmail.com
+number = +989981219624
+linkedin = www.linkedin.com/in/ali-janati-426927429
+age = 16
+free for job
+free for teaching
+school = دبیرستان نمونه دولتی حسینیان رشته راضی و فیزیک
+city = Neyshabour | نیشابور
