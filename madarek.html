@@ -1,210 +1,33 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مدارک و گواهینامه‌های علی جنتی — Python, Linux, HTML/CSS, C++, Git">
+    <meta property="og:title" content="Ali Janati | مدارک">
+    <meta property="og:description" content="مدارک و گواهینامه‌های علی جنتی — Python, Linux, HTML/CSS, C++, Git">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="img/favicon.ico">
-
-    <title>Ali Janati | Madarek</title>
-    <style>
-        .kolmd {
-            min-width: 90%;
-            max-width: 90%;
-            /* height: 90vh; */
-            border: 3px solid black;
-            text-align: center;
-            /* max-width: 70%; */
-            margin: auto;
-            margin-top: 30px;
-            border-radius: 20px;     
-            box-shadow: 0 0 40px rgba(0, 0, 0, 0.85);
-            padding: 10px;     
-        }
-        .py1md {
-            margin: auto;
-            background: url(img/python1.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py1md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py2md {
-            margin: auto;
-            background: url(img/python2.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py2md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py3md {
-            margin: auto;
-            background: url(img/linux.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py3md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py4md {
-            margin: auto;
-            background: url(img/htmlcss.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py4md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py5md {
-            margin: auto;
-            background: url(img/cpp.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py5md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py6md {
-            margin: auto;
-            background: url(img/git.jpg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py6md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py7md {
-            margin: auto;
-            background: url(img/python1.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py7md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py8md {
-            margin: auto;
-            background: url(img/python1.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py8md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-        .py9md {
-            margin: auto;
-            background: url(img/python1.jpeg);
-            background-attachment: scroll;
-            /* background: red; */
-            width: 90%;
-            aspect-ratio: 3/2;
-            border: 3px solid black;
-            border-radius: 10px;
-            background-size: 100% 100%;
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
-            margin-top: 20px;
-            transition: all 0.5s ease;
-        }
-        .py9md:hover {
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.85);
-            transform: scale(1.02);
-        }
-    </style>
+    <title>Ali Janati | مدارک</title>
 </head>
 <body>
-    <div class="kolmd">
-        <div class="py1md">
+    <nav class="site-nav">
+        <a class="nav-back" href="index.html">← بازگشت به خانه</a>
+    </nav>
+
+    <main class="page-card page-card--wide">
+        <h1 class="page-title">مدارک</h1>
+        <hr>
+        <div class="cert-grid">
+            <div class="cert-card cert-python1" role="img" aria-label="گواهینامه Python"></div>
+            <div class="cert-card cert-python2" role="img" aria-label="گواهینامه Python"></div>
+            <div class="cert-card cert-linux" role="img" aria-label="گواهینامه Linux"></div>
+            <div class="cert-card cert-htmlcss" role="img" aria-label="گواهینامه HTML و CSS"></div>
+            <div class="cert-card cert-cpp" role="img" aria-label="گواهینامه C++"></div>
+            <div class="cert-card cert-git" role="img" aria-label="گواهینامه Git"></div>
         </div>
-        <div class="py2md">
-        </div>
-        <div class="py3md">
-        </div>
-        <div class="py4md">
-        </div>
-        <div class="py5md">
-        </div>
-        <div class="py6md">
-        </div>
-        <!-- <div class="py7md">
-        </div>
-        <div class="py8md">
-        </div>
-        <div class="py9md">
-        </div> -->
-    </div>
+    </main>
 </body>
 </html>

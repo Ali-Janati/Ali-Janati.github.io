@@ -1,45 +1,47 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="پورتفولیوی علی جنتی — برنامه‌نویس فرانت‌اند، متخصص امنیت، هوش مصنوعی و بازی‌سازی">
+    <meta name="author" content="Ali Janati">
+    <meta property="og:title" content="Ali Janati | علی جنتی">
+    <meta property="og:description" content="پورتفولیوی علی جنتی — برنامه‌نویس فرانت‌اند، متخصص امنیت، هوش مصنوعی و بازی‌سازی">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fa_IR">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="img/favicon.ico">
-    <title>Ali Jananti</title>
+    <title>Ali Janati | علی جنتی</title>
 </head>
 <body>
-    <!-- لودینگ -->
     <div id="loading">
         <div class="loader"></div>
         <p>در حال بارگذاری...</p>
     </div>
-    <div class="kol">
-        <div class="head">
+
+    <main class="kol">
+        <header class="head">
             <h1 class="name">علی جنتی</h1>
             <div class="jobs">
-                <small>برنامه نویس فرانتاند</small>
+                <small>برنامه‌نویس فرانت‌اند</small>
                 <small>متخصص امنیت</small>
                 <small>متخصص هوش مصنوعی</small>
-                <small>بازی ساز</small>
+                <small>بازی‌ساز</small>
                 <small>طراح</small>
             </div>
-            <!-- <div class="logo"><img src="./img/logo.png" alt=""></div> -->
-        </div>
+        </header>
         <div class="body">
-            <div class="maharat">
-                <button class="mhbtn" onclick="window.location.href='maharat.html'">مهارت ها</button>
-                <button class="mhbtn" onclick="window.location.href='vigi.html'">ویژگی ها</button>
-                <button class="mhbtn" onclick="window.location.href='madarek.html'">مدارک</button>
-            </div>
-            <div class="vigi">
-
-            </div>
-            
+            <nav class="maharat" aria-label="صفحات اصلی">
+                <a class="mhbtn" href="maharat.html">مهارت‌ها</a>
+                <a class="mhbtn" href="vigi.html">ویژگی‌ها</a>
+                <a class="mhbtn" href="madarek.html">مدارک</a>
+            </nav>
         </div>
-    </div>
+    </main>
+
     <script>
-        window.addEventListener('load', function() {
-            setTimeout(function() {
+        window.addEventListener('load', function () {
+            setTimeout(function () {
                 document.getElementById('loading').classList.add('hide');
             }, 1500);
         });
