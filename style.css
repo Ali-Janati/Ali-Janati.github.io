@@ -46,6 +46,13 @@ body {
     gap: 5px;
     grid-column: 2;          /* ستون دوم */
 }
+.logo {
+    display: grid;
+    justify-items: left;      /* شغل‌ها در سمت راست خانه‌شان */
+    grid-column: 3;
+    height: 50%;
+    width: 50%;          /* ستون دوم */
+}
 
 .jobs small {
     font-size: 12px;
