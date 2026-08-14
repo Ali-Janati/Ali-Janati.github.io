@@ -37,6 +37,9 @@ body {
     text-align: center;      /* اسم وسط ستون خودش */
     font-size: 1.5em;
     grid-column: 1;          /* ستون اول */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgb(0, 0, 0, 0.3));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .jobs {
