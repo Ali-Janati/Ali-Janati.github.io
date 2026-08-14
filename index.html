@@ -19,31 +19,83 @@
         <p>در حال بارگذاری...</p>
     </div>
 
-    <main class="kol">
-        <header class="head">
-            <h1 class="name">علی جنتی</h1>
-            <div class="jobs">
-                <small>برنامه‌نویس فرانت‌اند</small>
-                <small>متخصص امنیت</small>
-                <small>متخصص هوش مصنوعی</small>
-                <small>بازی‌ساز</small>
-                <small>طراح</small>
-            </div>
-        </header>
-        <div class="body">
-            <nav class="maharat" aria-label="صفحات اصلی">
-                <a class="mhbtn" href="maharat.html">مهارت‌ها</a>
-                <a class="mhbtn" href="vigi.html">ویژگی‌ها</a>
-                <a class="mhbtn" href="madarek.html">مدارک</a>
+    <div class="page-wrap">
+        <header class="site-header">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">AJ</span>
+                <span class="brand-text">
+                    <span class="brand-name">علی جنتی</span>
+                    <span class="brand-role">Portfolio</span>
+                </span>
+            </a>
+            <nav class="header-links" aria-label="ناوبری اصلی">
+                <a class="header-link is-active" href="index.html">خانه</a>
+                <a class="header-link" href="maharat.html">مهارت‌ها</a>
+                <a class="header-link" href="vigi.html">ویژگی‌ها</a>
+                <a class="header-link" href="madarek.html">مدارک</a>
             </nav>
-        </div>
-    </main>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="avatar" aria-hidden="true">AJ</div>
+                <div class="hero-content">
+                    <h1>علی جنتی</h1>
+                    <p class="hero-subtitle">برنامه‌نویس فرانت‌اند | متخصص امنیت | AI & Game Dev</p>
+                    <p class="hero-desc">
+                        علاقه‌مند به ساخت رابط‌های کاربری تمیز، یادگیری فناوری‌های جدید و کار روی پروژه‌های امنیت،
+                        هوش مصنوعی و بازی‌سازی. آماده همکاری در پروژه‌های حرفه‌ای و تیمی.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">Frontend</span>
+                        <span class="tag">Cyber Security</span>
+                        <span class="tag">Artificial Intelligence</span>
+                        <span class="tag">Unity</span>
+                        <span class="tag">UI Design</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-head">
+                    <h2 class="section-title">بخش‌های پورتفولیو</h2>
+                    <p class="section-desc">برای مشاهده جزئیات، یکی از بخش‌ها را انتخاب کنید</p>
+                </div>
+                <div class="nav-grid">
+                    <a class="nav-card" href="maharat.html">
+                        <div class="nav-card-icon">SK</div>
+                        <h3 class="nav-card-title">مهارت‌ها</h3>
+                        <p class="nav-card-desc">زبان‌ها، ابزارها و حوزه‌های تخصصی که روی آن‌ها کار کرده‌ام</p>
+                    </a>
+                    <a class="nav-card" href="vigi.html">
+                        <div class="nav-card-icon">TR</div>
+                        <h3 class="nav-card-title">ویژگی‌ها</h3>
+                        <p class="nav-card-desc">ویژگی‌های شخصیتی و کاری که در محیط حرفه‌ای به کار می‌آیند</p>
+                    </a>
+                    <a class="nav-card" href="madarek.html">
+                        <div class="nav-card-icon">CR</div>
+                        <h3 class="nav-card-title">مدارک</h3>
+                        <p class="nav-card-desc">گواهینامه‌ها و دوره‌هایی که تکمیل کرده‌ام</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p class="footer-text">© 2026 Ali Janati — Portfolio</p>
+            <div class="footer-links">
+                <a class="footer-link" href="https://github.com/Ali-Janati" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="footer-link" href="maharat.html">مهارت‌ها</a>
+                <a class="footer-link" href="madarek.html">مدارک</a>
+            </div>
+        </footer>
+    </div>
 
     <script>
         window.addEventListener('load', function () {
             setTimeout(function () {
                 document.getElementById('loading').classList.add('hide');
-            }, 1500);
+            }, 900);
         });
     </script>
 </body>
